@@ -1,0 +1,56 @@
+Marinello, Jessie
+Web Programming Fundamentals
+May 7, 2014
+Problem Solving
+
+A cat, a parrot, and a bag of seed
+1)Define the problem
+a)Do this in your own words.
+b)What insight can you offer into the problem that is not immediately visible from
+the word problem alone?
+c)What is the overall goal?
+
+The problem is that the man has too small of a boat and has to transport three items that will eat each other since they
+are within each other's food chain.
+
+My insight is more of a list of questions:  Why doesn't the man have a bigger boat if he transports things?
+Can the parrot fly? How big of a bag of seed is it? Does the man have to row the boat? If not, why can the man not put 
+the parrot on his shoulder and hold the cat and bag of seed?
+
+The overall goal is for the man to get all of the items safely to the other side, presumably in order to not loose money.
+And to be able to have the items safely on the other side when he returns to grab the other items one at a time.
+
+2)Break the problem apart
+a)What are the constraints?
+b)What are the sub goals?
+
+The constraints are that this man has to transfer three things across a river in a boat that is too small and he cannot 
+leave some of the items alone together, and he has to make sure that the items are not being eaten on the other side when he goes
+to get the items left on the other side of the shore.
+
+The subgoals are to figure out what item he can take and what items can stay together.
+
+3)Identify potential solutions
+a)For each of the sub problems you’ve discussed in #2, what is a possible solution?
+
+The man could try to balance the items on his person.
+The man could have the parrot fly across the river and hold the cat and seed.
+The man could put the parrot on his shoulder and take the cat, then get the seed.
+Put the cat and bird in separate cages.
+The man could tow something behind his boat.
+The man could leave the cat with the seed and take the parrot first, as long as he wasn't worried about what would happen on the other side.
+
+4) Evaluate each potential solution
+a)Does each solution meet the goals?
+b)Will each solution work for ALL cases
+
+Most of the solutions do not meet the goal of figuring out what two items stay on one side of the shore.
+Each solution has the potential to work, but what are ALL cases? Do we mean to ask will it work if the man has a lion,
+an elephant, and a bag of peanuts? Most likely not.
+
+5)Choose a solution and develop a plan to implement it.
+a)Explain the solution in full.
+b)Describe some test cases you tried out to make sure it works.
+
+My solution would be to put the parrot on my shoulder, and carry the cat.  Leave the cat on the other side of the shore,
+go back, with the parrot still on the shoulder, pick up the bag of seed and return to the side the cat is on.
