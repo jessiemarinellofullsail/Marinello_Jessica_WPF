@@ -1,3 +1,1 @@
-//created by Jessie on 5-7-14
-//Hooray!
-alert("test");
+alert("This is in my js file");
