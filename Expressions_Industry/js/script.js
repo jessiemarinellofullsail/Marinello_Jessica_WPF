@@ -1,3 +1,6 @@
+//Jessie Marinello
+//Expressions_Industry
+//May 2015
 //alert("This is Expressions Industry");
 
 //Find the weighted number of hours you need to spend on homework per night if you only want to work a specific percentage of your time per day
