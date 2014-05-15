@@ -1,5 +1,6 @@
 //alert("This is Expressions Industry");
 
+//Find the weighted number of hours you need to spend on homework per night if you only want to work a specific percentage of your time per day
 var totalHours = 28; //total amount of hours of school work to be completed in one week (five days)
 
 var percentageTime = [.3,.1,.25,.25,.1]; //percentage of time you want to spend on homework each night
