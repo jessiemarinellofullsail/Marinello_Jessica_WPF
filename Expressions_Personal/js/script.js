@@ -11,3 +11,7 @@
 //Where H = number of hours drinks were consumed over
 //Where 0.15 is a constant for alcohol elimination rate
 
+var drinkAmount = prompt("To calculate your BAC level, please enter the following information: \nThe total number of drinks consumed"); //user enters total number of drinks consumed
+var numOunces = prompt("Enter in the number of ounces in one drink, i.e. 12 ounces in one beer");
+var totalOunces = drinkAmount * numOunces;
+console.log(totalOunces);
