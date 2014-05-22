@@ -16,3 +16,27 @@ var length2 = loversName.length;
 totalLength = length1 + length2;
 //console.log(totalLength);
 //test addition of string length 1 and 2
+
+if (length1 > length2) {
+    //if the length of characters in length1 is more than the characters in length2, subtract 5
+    //numbers are made up; trust me, there is no scientific process for this :)
+    totalLength = totalLength - 5;
+} else {
+    //if length1 is not more than length2, add 3
+    //see above in regards to made up numbers
+    totalLength = totalLength + 3;
+}
+
+// Multiply by 42 (the meaning of life! For real! http://en.wikipedia.org/wiki/42_(number))
+totalLength = totalLength * 42;
+
+// Divide by 100 + length2
+totalLength = totalLength / (100 + length2);
+
+if (totalLength > 10){
+    totalLength = 10;
+}else {
+    totalLength = Math.round(totalLength, 0);
+}
+
+alert(yourName + " and " + loversName + " score " + totalLength + " out of 10!");
