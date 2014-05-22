@@ -7,7 +7,15 @@
 //Just because
 
 var yourName = prompt("What's your name?");
+if (yourName === ""){
+    //if user did not input anything, prompt again
+    yourName = prompt("Don't forget to add your name!");
+}
 var loversName = prompt("What's your lover's name?");
+if (loversName === ""){
+    //if user did not input anything, prompt again
+    loversName = prompt("Don't forget to add your lover's name!");
+}
 var length1 = yourName.length;
 var length2 = loversName.length;
 //console.log(length1);
