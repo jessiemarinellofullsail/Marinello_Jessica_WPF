@@ -32,3 +32,4 @@ if ( (weight <= 35) || (weight >= 500) || (height <= 48) || (height >= 120) ) {
     alert("Please check your weight and height and re-enter");
 }
 bmi = (Math.round((weight * 703) / (height * height)));
+//console.log(bmi);
