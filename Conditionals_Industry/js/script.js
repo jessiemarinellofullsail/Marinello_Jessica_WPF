@@ -15,3 +15,7 @@ if (totalDaysTaken === ""){
     //if user did not input anything, prompt again
     totalDaysTaken = prompt("Don't forget to add your name!");
 }
+var numNewDays = prompt("Enter in the number of days you would like to take off");
+var availableTime = totalDaysTaken + numNewDays; //calculates number of available vacation days
+var vacation;
+vacation = (availableTime >= totalTimeOff) ? alert("Wahoo! No work!") : alert("Bummer, no vacation days left!");
