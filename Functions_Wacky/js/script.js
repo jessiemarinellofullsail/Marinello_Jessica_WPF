@@ -28,20 +28,19 @@ while (isNaN(maximumNumbers) || maximumNumbers === "") {
 //console.log(maximumNumbers); validate input with while loop and prompts
 
 //create function to choose numbers at random
-
 function lottoNumbers (minimumNumber1, maximumNumbers1 ) {
     var randomNumbers = Math.round( Math.random() * (maximumNumbers1 - minimumNumber1) + Number(minimumNumber1) );
     //console.log(randomNumbers);
-
     return randomNumbers;
 }
 
-var yourNumbers = lottoNumbers(minimumNumber, maximumNumbers); //create variable to hold function in order to alert user
+//create variable to hold function in order to alert user
+var yourNumbers = lottoNumbers(minimumNumber, maximumNumbers);
 //function call
 //console.log(yourNumbers);
 
-for (var i = 0; i<numbersNeeded; i++){ //create for loop to return the amount of winning numbers user requested
-
+//create for loop to return the amount of winning numbers user requested
+for (var i = 0; i<numbersNeeded; i++){
     alert("Your winning numbers are: " + "" + lottoNumbers (minimumNumber, maximumNumbers) ); //how to break up all of my random numbers in an alert or prompt?! tried researching without much luck.
     //add function to loop in order for values to be returned
 }
