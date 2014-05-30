@@ -22,3 +22,12 @@ while (isNaN(maximumNumbers) || maximumNumbers === "") {
 
 //console.log(numbersNeeded); validate user input with while loop and prompts
 //console.log(maximumNumbers); validate input with while loop and prompts
+
+//create function to choose numbers at random
+
+    function lottoNumbers (minimumNumber1, maximumNumbers1 ) {
+        var randomNumbers = Math.round( Math.random() * (maximumNumbers1 - minimumNumber1) + Number(minimumNumber1) );
+        //console.log(randomNumbers);
+
+        return randomNumbers;
+    }
