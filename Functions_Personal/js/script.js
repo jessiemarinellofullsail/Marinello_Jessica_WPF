@@ -38,4 +38,4 @@ while (isNaN(caloriesPerCup) || caloriesPerCup === "") {
     weight = prompt("Don't forget to enter in the calories per cup serving");
 }
 
-alert("Your dog needs " + caloriesNeeded + " calories per day, and about " + Math.round((caloriesNeeded/caloriesPerCup)) + " cups of food per day");
+alert("Your dog needs " + caloriesNeeded + " calories per day, and about " + Math.round((caloriesNeeded/caloriesPerCup)) + " cups of food per day"); //divide calories needed by calories per cup to determine how much food should be given per day
