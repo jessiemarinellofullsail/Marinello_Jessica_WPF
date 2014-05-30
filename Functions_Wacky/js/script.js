@@ -37,6 +37,7 @@ function lottoNumbers (minimumNumber1, maximumNumbers1 ) {
 }
 
 var yourNumbers = lottoNumbers(minimumNumber, maximumNumbers); //create variable to hold function in order to alert user
+//function call
 //console.log(yourNumbers);
 
 for (var i = 0; i<numbersNeeded; i++){ //create for loop to return the amount of winning numbers user requested
