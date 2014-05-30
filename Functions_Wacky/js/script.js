@@ -31,3 +31,6 @@ while (isNaN(maximumNumbers) || maximumNumbers === "") {
 
         return randomNumbers;
     }
+
+var yourNumbers = lottoNumbers(minimumNumber, maximumNumbers); //create variable to hold function in order to alert user
+//console.log(yourNumbers);
