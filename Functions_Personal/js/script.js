@@ -22,10 +22,12 @@ const  rer70 = 70;
 var getKilograms = weight / 2.2 //convert wight in pounds to kilograms
 //console.log(getKilograms); Test var getKilograms to ensure proper conversion
 
+var caloriesNeeded = findRestingEnergyRequirement(rer30, getKilograms, rer70) * 1.8;
+
 function findRestingEnergyRequirement(resting1, conversion, resting2) { //create function to calculate the RER of the dog
-    var rerCalculation = (resting1(conversion) + resting2);
+    var rerCalculation = Math.round((resting1 * conversion) + resting2);
+    //console.log(rerCalculation);
     return rerCalculation;
 }
 
-var caloriesNeeded = findRestingEnergyRequirement(rer30, getKilograms, rer70);
-console.log(caloriesNeeded);
+//console.log(caloriesNeeded);
