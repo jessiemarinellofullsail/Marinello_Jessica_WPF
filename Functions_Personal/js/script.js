@@ -30,4 +30,12 @@ function findRestingEnergyRequirement(resting1, conversion, resting2) { //create
     return rerCalculation;
 }
 
-//console.log(caloriesNeeded);
+//console.log(caloriesNeeded); test working function
+
+var caloriesPerCup= prompt("Enter in the calories per cup serving to find out the estimated amount to feed Spot per day");
+while (isNaN(caloriesPerCup) || caloriesPerCup === "") {
+    //If conditions above are not met, prompt user to input a number value
+    weight = prompt("Don't forget to enter in the calories per cup serving");
+}
+
+alert("Your dog needs " + caloriesNeeded + " calories per day, and about " + Math.round((caloriesNeeded/caloriesPerCup)) + " cups of food per day");
