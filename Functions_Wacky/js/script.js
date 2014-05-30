@@ -1,4 +1,7 @@
 //alert("show me the money!");
+//Jessie Marinello
+//Functions_Wacky Assignment
+//May 2015
 
 //Create a random lotto number generator to help you WIN BIG!
 
