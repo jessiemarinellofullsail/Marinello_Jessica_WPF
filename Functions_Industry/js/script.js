@@ -23,3 +23,6 @@ while (isNaN(interestRate) || interestRate === "") {
     //If conditions above are not met, prompt user to input a number value
     interestRate = prompt("Please enter a number value for your interest rate");
 }
+
+var rate = interestRate/1200; //12 months * 100 percent
+console.log(rate); //variable rate is calculating properly
