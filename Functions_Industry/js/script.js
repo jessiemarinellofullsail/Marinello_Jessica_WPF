@@ -43,3 +43,11 @@ function calculateLoan() {
 //make sure debt can be paid off with the given payment
 var interest = calculateLoan(principalOwed * rate);
 
+//function call
+var result = calculateLoan(principalOwed, interestRate, monthlyPayment, rate); //create variable to hold function in order to alert user
+if (interest >= monthlyPayment) {
+    alert("The debt can't be paid off with the given monthly payment and interest rate!\n" + "You're too broke to even pay the interest on the loan");
+    result;
+}else{
+    alert("Your estimated payoff time is " + result + " years");
+}
