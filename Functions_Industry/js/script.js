@@ -4,6 +4,12 @@
 //May 2015
 
 //How many millions of years will it take you to pay off those student loans?
+//to calculate time to pay off loan:
+//log(1+(rate/(monthly payment / principal) - rate) / log(1 + rate)
+//Where rate = your interest rate
+//Where payment = your monthly payments
+//Where principal = total amount of loan
+//Assume that interest rate and monthly payments remain constant
 
 var principalOwed = prompt("Please enter your total loan amount"); //prompt for value
 //validate user inputs
@@ -25,7 +31,7 @@ while (isNaN(interestRate) || interestRate === "") {
 }
 
 var rate = interestRate/1200; //12 months * 100 percent
-console.log(rate); //variable rate is calculating properly
+console.log(rate); //rate is calculating properly
 
 //create function to calculate loan
 function calculateLoan() {
