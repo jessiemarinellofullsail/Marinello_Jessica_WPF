@@ -19,3 +19,6 @@ var maximumNumbers = prompt("Enter in your maximum number range.");
 while (isNaN(maximumNumbers) || maximumNumbers === "") {
     //If conditions above are not met, prompt user to input a number value
     maximumNumbers = prompt("Don't forget to enter in your maximum number range.");
+
+//console.log(numbersNeeded); validate user input with while loop and prompts
+//console.log(maximumNumbers); validate input with while loop and prompts
