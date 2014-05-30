@@ -39,3 +39,7 @@ function calculateLoan() {
     console.log(calculate1);
     return calculate1;
 }
+
+//make sure debt can be paid off with the given payment
+var interest = calculateLoan(principalOwed * rate);
+
