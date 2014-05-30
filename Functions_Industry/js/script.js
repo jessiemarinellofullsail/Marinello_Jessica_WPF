@@ -26,3 +26,10 @@ while (isNaN(interestRate) || interestRate === "") {
 
 var rate = interestRate/1200; //12 months * 100 percent
 console.log(rate); //variable rate is calculating properly
+
+//create function to calculate loan
+function calculateLoan() {
+    var calculate1 = Math.round(Math.log(1 + (rate / (monthlyPayment / principalOwed) - rate)) / Math.log(1 + rate) / 12);
+    console.log(calculate1);
+    return calculate1;
+}
